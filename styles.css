@@ -1,0 +1,67 @@
+.images {
+    padding-top: 5vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.playerD {
+    /* width: 40vw; */
+    display: flex;
+    justify-content: space-around;
+    /* height: 50%; */
+}
+
+.diceImg {
+    max-width: 270px;
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+}
+
+.buttonArea {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonHolder {
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    width: 8rem;
+    height: 3rem;
+    /* rgba(7, 104, 7, 0.322) */
+    background-color: rgba(7, 104, 7, 1);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.scoreArea {
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerScore {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.statusbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

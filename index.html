@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./file1.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- dice image containing dev -->
+    <div class="images">
+        <div class="diceImg">
+            <img src="./Dice_Images/dice_1.png" id="dice_1">
+        </div>
+        <div class="diceImg">
+            <img src="./Dice_Images/dice_2.png" id="dice_2">
+        </div>
+    </div>
+
+    <!-- statusbar container -->
+    <div class="statusbar">
+        <div class="stat">
+            <h1 id="diceStatus"></h1>
+        </div>
+    </div>
+    <div class="statusbar">
+        <div class="stat">
+            <h1 id="status">Let's Start! Who rolls the dices first?</h1>
+        </div>
+    </div>
+
+    <!-- game button holding container -->
+    <div class="buttonArea">
+        <div class="buttonHolder">
+            <h3>player1</h3>
+            <button onclick="playCall1()" class="button1" id="player1btn">Roll!</button>
+        </div>
+        <div class="buttonHolder">
+            <h3>Player2</h3>
+            <button onclick="playCall2()" class="button1" id="player2btn">Roll!</button>
+        </div>
+    </div>
+
+    <!-- score displaying -->
+    <div class="scoreArea">
+        <div class="playerScore">
+            <h2>Player1 score : <span id="player1score">0</span></h2>
+        </div>
+        <div class="playerScore">
+            <h2>Player2 score : <span id="player2score">0</span></h2>
+        </div>
+    </div>
+
+</body>
+
+</html>
